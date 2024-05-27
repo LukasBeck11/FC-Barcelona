@@ -1,0 +1,12 @@
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(1, 11, 39), rgb(95, 3, 3));
+}
+h2{
+  color: white;
+  font-size: 60px;
+}
+p{
+  color: white;
+  font-size: 40px;
+}

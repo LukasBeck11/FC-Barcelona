@@ -1,0 +1,103 @@
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: url(lama.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text,
+.text_dva {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text h2 {
+    margin-bottom: 10px;
+    color: gold
+}
+
+.text p,
+.text_dva p {
+    margin: 0;
+    line-height: 1.6;
+    color: black
+}
+
+.slike-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+.xavi {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.xavi:hover {
+    transform: scale(1.05);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.players-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: rgb(36, 36, 36);
+}
+
+.players-table th,
+.players-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.players-table th {
+    background-color: burlywood;
+    color: white;
+}
+
+.player-image {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.player-image:hover {
+    transform: scale(1.05);
+}
+.igraci{
+    font-family: sans-serif;
+    font-size: 25px;
+    text-shadow: 1px 1px;
+    color: gold;
+}
+.current h2{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(0, 20, 58);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}

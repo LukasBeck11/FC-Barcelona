@@ -1,0 +1,46 @@
+.player-table-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.player-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.player-table thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+}
+
+.player-table th,
+.player-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.player-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.player-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.player-image {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    color: rgb(77, 4, 4);
+}

@@ -1,0 +1,170 @@
+.lamine h1 {
+    color: white;
+    margin: 0;
+    padding-left: 700px;
+    font-size: 60px;
+}
+
+.lamine h2 {
+    color: gold;
+    margin: 0;
+    padding-left: 950px;
+    font-size: 90px;
+    text-shadow: 2px 2px;
+}
+
+.lamine {
+    background-image: url(igra.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: 800px;
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.lamine:hover {
+    transform: scale(1.03); /* Scale up on hover */
+}
+
+.kontenjer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.talent {
+    background-color: burlywood;
+    background-size: cover;
+    background-position: center;
+    width: 1500px;
+    height: auto;
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full-width {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+.lamasia {
+    color: gold;
+    text-decoration: underline;
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: rgb(1, 31, 65);
+    margin: 10px;
+    padding: 20px;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+}
+
+.teamslika,
+.trcislika {
+    max-width: 100%;
+    height: auto;
+    ;
+    transition: transform 0.3s ease;
+}
+
+.teamslika:hover,
+.trcislika:hover {
+    transform: scale(1.03);
+}
+
+
+
+.team-info {
+    display: flex;
+    justify-content: center;
+}
+
+.jure {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.ekipa {
+    color: gold;
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Footer.css */
+
+.footer {
+    background-color: burlywood;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    color: rgb(95, 3, 3);
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
